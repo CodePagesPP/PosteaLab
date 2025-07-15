@@ -770,7 +770,7 @@ background: linear-gradient(90deg,rgba(96, 0, 255, 1) 0%, rgba(255, 72, 0, 1) 50
 
 
 .tabs-wrapper {
-  max-width: 1211px; 
+  max-width: 1560px; 
   width: 100%;
   margin: 0 auto;
 }
@@ -812,7 +812,7 @@ background: linear-gradient(90deg,rgba(96, 0, 255, 1) 0%, rgba(255, 72, 0, 1) 50
 }
 
 .tab-content.active {
-  max-width: 1150px;
+  max-width: 1500px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -985,8 +985,8 @@ section > .marcasfondos> .news > .layout > .box-1 {
 
 .marcas-slide .barramarcas{
     display: flex;
-    animation: scroll2 28s linear infinite;
-    -webkit-animation:scroll2 28s linear infinite;
+    animation: scroll2 5s linear infinite;
+    -webkit-animation:scroll2 70s linear infinite;
     width: calc(276px * 10);
     gap: 40px;
 }   
