@@ -1095,10 +1095,20 @@ section > .marcasfondos> .news > .layout > .box-1 {
 
 .proceso{
     width: 100%;
+    
+    margin: 0 auto;
+    padding-top: 6%;
+    padding-bottom: 70px;
+    background-color: #1D1D1D;
+  }
+
+  .proceso-container{
+    width: 100%;
     max-width: 1300px;
     margin: 0 auto;
     padding-top: 6%;
     padding-bottom: 70px;
+   
   }
 
 
@@ -1114,7 +1124,7 @@ section > .marcasfondos> .news > .layout > .box-1 {
 .subtitulo-proceso {
   margin-bottom: 50px;
   text-align: center;
-  color: #373737;
+  color: #ffff;
     font-size: 25px;
     font-weight: 400;
 }
@@ -1140,7 +1150,7 @@ section > .marcasfondos> .news > .layout > .box-1 {
 }
 
 .numero {
-  background-color: #FE3501;
+  background: linear-gradient(90deg,rgba(96, 0, 255, 1) 0%, rgba(255, 72, 0, 1) 50%, rgba(255, 101, 0, 1) 100%);
   color: white;
   font-weight: bold;
   border-radius: 50%;
@@ -1252,7 +1262,7 @@ details[open] .contenido-details {
 }
 
 .logo {
-  width: 24px;
+  width: 100px;
   height: 24px;
 }
 
