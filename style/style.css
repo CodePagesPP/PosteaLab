@@ -57,6 +57,7 @@ body {
 
   .menu-toggle {
     display: block;
+    margin-right: 20px;
   }
 
   
@@ -676,6 +677,32 @@ background: linear-gradient(90deg,rgba(96, 0, 255, 1) 0%, rgba(255, 72, 0, 1) 50
   text-decoration: none;
 }
 
+
+@media (max-width: 768px) {
+  .titulo-porta {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    padding-top: 10px;
+  }
+
+  .btn-asesoria {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    justify-content: left; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .principal-porta{
+    grid-column: 1 / -1;
+    font-size: 41px;
+  }
+
+  .sec {
+    grid-column: 1 / -1;
+  }
+}
+
 .asesoria {
   background: linear-gradient(90deg,rgba(96, 0, 255, 1) 0%, rgba(255, 72, 0, 1) 50%, rgba(255, 101, 0, 1) 100%);
   font-size: 17px;
@@ -1012,9 +1039,6 @@ section > .marcasfondos> .news > .layout > .box-1 {
   
 }
 
-.marcas-slide .marca h3 {
-  margin-top: 10px;
-}
 
 @keyframes scroll2 {
     0%{
