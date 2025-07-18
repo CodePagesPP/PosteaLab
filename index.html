@@ -893,9 +893,9 @@
                         <a href="https://www.threads.com/@postealab.pe" target="_blank"><i class="fab fa-threads"></i></a>
                     </div>
                     <p>Recibe insights de branding</p>
-                    <form action="" class="footer-form">
-                        <input type="email" placeholder="E-mail" required/>
-                        <button>Suscríbete</button>
+                    <form class="footer-form" id="formulario" method="POST" action="php/form-handler.php">
+                        <input name="email" type="email" placeholder="E-mail" required/>
+                        <button type="submit">Suscríbete</button>
                     </form>
                 </div>
             </div>
@@ -914,6 +914,7 @@
    <script src="./js/contadores.js"></script>
    <script src="./js/menu.js"></script>
    <script src="./js/video-reproduction.js"></script>
+   <script src="./js/formulario.js"></script>
    <script>
     AOS.init();
    </script>
