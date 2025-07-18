@@ -600,6 +600,7 @@ background: linear-gradient(90deg,rgba(96, 0, 255, 1) 0%, rgba(255, 72, 0, 1) 50
   display: inline-block;
   font-size: 1.2rem;
   transition: transform 0.3s;
+  padding-top: 8px;
 }
 
 .card a:hover .arrow-icon {
@@ -704,7 +705,7 @@ background: linear-gradient(90deg,rgba(96, 0, 255, 1) 0%, rgba(255, 72, 0, 1) 50
 .sliders img {
   height: 100%;
   width: 100%;
-  max-height: 390px;
+  max-height: 430px;
 }
 
 .slider3 {
