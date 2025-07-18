@@ -4,7 +4,7 @@
 	height:60px;
 	bottom:40px;
 	right:40px;
-	background-color:#25D366;
+	background: linear-gradient(90deg, rgba(96, 0, 255, 1) 0%, rgba(255, 72, 0, 1) 50%, rgba(255, 101, 0, 1) 100%);
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
@@ -14,7 +14,7 @@
 }
 .float:hover {
 	text-decoration: none;
-	color: #25D366;
+	color: #ffffff;
   background-color:#ffffff;
     
     animation: shake 1s;

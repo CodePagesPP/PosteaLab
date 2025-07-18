@@ -340,6 +340,11 @@ background: linear-gradient(90deg,rgba(96, 0, 255, 1) 0%, rgba(255, 72, 0, 1) 50
   fill: white;
 }
 
+.tienda-a{
+  text-decoration: none;
+  color: white;
+}
+
 .lang {
   font-family: 'Mont';
   background-color: transparent;
