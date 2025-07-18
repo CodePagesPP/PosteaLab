@@ -68,33 +68,34 @@ body {
   }
 
   
-    .nav-links{
-    overflow: hidden;
-    max-height: 0;
-    opacity: 0;
-    transition: max-height 3s ease, opacity 0.3s ease;
-    pointer-events: none;
-  }
+    .nav-links {
+  position: absolute; 
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  background: white;
+  border-radius: 20px;
+  padding: 0 30px; 
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  transition: max-height 0.5s ease, opacity 0.3s ease;
+}
   
 
   
   .navbar.active .nav-links {
-    max-height: 1000px; 
-    opacity: 1;
-    pointer-events: auto;
-
-    flex-direction: column;
-    background: white;
-    position: absolute;
-    top: 150px; 
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%;
-    border-radius: 20px;
-    padding: 30px;
-    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
-    z-index: 999;
-  }
+  max-height: 1000px; 
+  opacity: 1;
+  pointer-events: auto;
+  padding: 30px;
+  left: 50%;
+  justify-content: left;
+}
 
   .navbar.active .buttons .tienda {
     display: flex !important;;
