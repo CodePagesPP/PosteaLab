@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $email = $_POST["email"] ?? "";
     
 
-    $correoDestino = "jeisson12aaron@gmail.com";
+    $correoDestino = "<CORREO_DESTINO>"; 
 
     $contenidoHTML = "
     <div style='font-family: Arial, sans-serif; max-width: 600px; margin: auto;'>
@@ -41,8 +41,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'jeisson12aaron@gmail.com';
-        $mail->Password = 'dgyowiskdxfaukzx'; 
+        $mail->Username = '<correo>';
+        $mail->Password = '<contraseña>'; 
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
