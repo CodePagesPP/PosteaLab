@@ -105,7 +105,7 @@ const translations = {
     "paquete.ecommerce.4": "Full product and order management",
     "paquete.ecommerce.5": "Automated notifications",
     "paquete.ecommerce.6": "Friendly URLs, fast load and proper tagging",
-    "paquete.ecommerce.precio": "FROM S/... + TAX",
+    "paquete.ecommerce.precio": "FROM S/1800 + TAX",
 
     "paquete.app.title": "Web / Mobile / Desktop Apps",
     "paquete.app.1": "Custom web and mobile apps",
@@ -114,7 +114,7 @@ const translations = {
     "paquete.app.4": "Custom admin panel",
     "paquete.app.5": "Push or real-time notifications",
     "paquete.app.6": "Integration with APIs and external services",
-    "paquete.app.precio": "FROM S/... + TAX",
+    "paquete.app.precio": "FROM S/3500 + TAX",
 
     "asesoria.boton": "Free Consultation",
 
