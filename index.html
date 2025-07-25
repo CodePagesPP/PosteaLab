@@ -16,249 +16,237 @@
         </a>
         <!-- PRINCIPALLLLLLLLLLLLL NAVBAR -->
         <section class="principal">
-            <section class="header">
-                <div class="navbar">
-                <button class="menu-toggle">
-                    <i class="fa-solid fa-bars"></i>
+        <section class="header">
+            <div class="navbar">
+            <button class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <a href="#">
+                <img src="./assets/LOGO NEGRO.PNG" alt="PosteaLab Logo">
+            </a>
+
+            <div class="nav-links">
+                <nav>
+                <ul>
+                    <li><a href="#" data-target="portafolio" data-i18n="nav.portafolio">PORTAFOLIO</a></li>
+
+                    <li class="dropdown">
+                    <a href="#" >
+                        <span data-i18n="nav.servicios">SERVICIOS </span>
+                        <span class="arrow"><i class="fa-solid fa-chevron-down fa-2xs"></i></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" data-target="paquetes" data-i18n="nav.branding">BRANDING</a></li>
+                        <li id="redes"><a href="#" data-target="paquetes" data-i18n="nav.redes">REDES Y ANUNCIOS</a></li>
+                        <li id="web"><a href="#" data-target="paquetes" data-i18n="nav.web">DISEÑO WEB</a></li>
+                    </ul>
+                    </li>
+
+                    <li><a href="#" data-target="footer" data-i18n="nav.suscripcion">SUSCRIPCIÓN</a></li>
+
+                    <li class="dropdown">
+                    <a href="#">
+                        <span  data-i18n="nav.nosotros">NOSOTROS</span>
+                        <span class="arrow"><i class="fa-solid fa-chevron-down fa-2xs"></i></span>
+                    </a>
+                    <ul id="drop-nosotros" class="dropdown-menu">
+                        <li><a href="#" data-target="negocio" data-i18n="nav.quienes">QUIENES SOMOS</a></li>
+                        <li id="metodo"><a href="#" data-target="proceso" data-i18n="nav.metodologia">METODOLOGÍA</a></li>
+                        <li id="blog"><a href="#" data-target="redes-section" data-i18n="nav.blog">BLOG</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                </nav>
+            </div>
+
+            <div class="buttons">
+                <button class="tienda"> 
+                <a class="tienda-a" href="#portafolio">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span data-i18n="button.portafolio">Portafolio</span>
+                </a>    
                 </button>
-                <a href="#">
-                    <img src="./assets/LOGO NEGRO.PNG" alt="PosteaLab Logo">
-                </a>
 
-                    <div class="nav-links">
-                        <nav>
-                            <ul>
-                            <li><a href="#" data-target="portafolio">PORTAFOLIO</a></li>
+                <button class="lang" id="lang-toggle">
+                <img src="./assets/language/en.svg" alt="English" />
+                EN
+                </button>
+            </div>
+            </div>
+        </section>
+       
 
-                            <li class="dropdown">
-                            <a href="#">SERVICIOS
-                                <span class="arrow"><i class="fa-solid fa-chevron-down fa-2xs"></i></span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#" data-target="paquetes">BRANDING</a></li>
-                                <li id="redes"><a href="#" data-target="paquetes">REDES Y ANUNCIOS</a></li>
-                                <li id="web"><a href="#" data-target="paquetes">DISEÑO WEB</a></li>
-                            </ul>
-                            </li>
-
-                            <li><a href="#" data-target="footer">SUSCRIPCIÓN</a></li>
-
-                            <li class="dropdown">
-                            <a href="#">NOSOTROS
-                                <span class="arrow"><i class="fa-solid fa-chevron-down fa-2xs"></i></span>
-                            </a>
-                            <ul id="drop-nosotros" class="dropdown-menu">
-                                <li><a href="#" data-target="negocio">QUIENES SOMOS</a></li>
-                                <li id="metodo"><a href="#" data-target="proceso">METODOLOGÍA</a></li>
-                                <li id="blog"><a href="#" data-target="redes-section">BLOG</a></li>
-                            </ul>
-                            </li>
-                            </ul>
-                        </nav>
-                    </div>
-
-                    <div class="buttons">
-                        <button class="tienda"> 
-                            <a class="tienda-a" href="#portafolio">
-                                <i class="fa-solid fa-bag-shopping"></i>
-                                <span>Portafolio</span>
-                            </a>    
-                        </button>
-                        
-                        <button class="lang">
-                            <img src="./assets/language/en.svg" alt="English" />
-                            EN
-                        </button>
-                    </div>
-                </div>
-            </section>
 
             <section class="hero">
-                <div class="hero-content">
-                    <h1>Sé la marca <span class="resaltado">elegida</span> por<br>tus clientes.</h1>
-                    <p>Somos una agencia de branding estratégico especializados en la creación y<br>
-                        transformación de marcas, te ayudamos a crecer y diferenciarte.</p>
-                </div>
-                <div class="stats" data-aos="fade-up" data-aos-duration="1500">
-                    <div>
-                        <div class="counter">
+            <div class="hero-content">
+                <h1>
+                    <span data-i18n="hero.title.1">Sé la marca</span> 
+                    <span class="resaltado" data-i18n="hero.title.2">elegida</span>
+                    <br>
+                    <span data-i18n="hero.title.3">por tus clientes.</span>
+                </h1>
+                <p data-i18n="hero.subtitle">
+                    Somos una agencia de branding estratégico especializados en la creación y<br>
+                    transformación de marcas, te ayudamos a crecer y diferenciarte.
+                </p>
+            </div>
+            <div class="stats" data-aos="fade-up" data-aos-duration="1500">
+                <div>
+                    <div class="counter">
                         <span class="plus">+</span><span data-target="150" class="number">0</span>
-                        </div>
-                        <p>Proyectos Completados</p>
                     </div>
-                    <div>
-                        <div class="counter">
-                        <span class="plus">+</span><span data-target="50" class="number">0</span>
-                        </div>
-                        <p>Clientes</p>
-                    </div>
-                    <div>
-                        <div class="counter">
-                        <span class="plus">+</span><span data-target="8" class="number">0</span>
-                        </div>
-                        <p>Años de Experiencia</p>
-                    </div>
-                    <div>
-                        <div class="counter">
-                            <span data-target="3" class="number">0</span>
-                        </div>
-                        <p>Países</p>
-                    </div>
+                    <p data-i18n="hero.stats.projects">Proyectos Completados</p>
                 </div>
-            </section>
+                <div>
+                    <div class="counter">
+                        <span class="plus">+</span><span data-target="50" class="number">0</span>
+                    </div>
+                    <p data-i18n="hero.stats.clients">Clientes</p>
+                </div>
+                <div>
+                    <div class="counter">
+                        <span class="plus">+</span><span data-target="8" class="number">0</span>
+                    </div>
+                    <p data-i18n="hero.stats.years">Años de Experiencia</p>
+                </div>
+                <div>
+                    <div class="counter">
+                        <span data-target="3" class="number">0</span>
+                    </div>
+                    <p data-i18n="hero.stats.countries">Países</p>
+                </div>
+            </div>
+        </section>
+
         </section>
 
         <!-- NUESTROS SERVICIOS -->
          <section class="services" id="servicios">
-            <div class="title-services">
-                <h2>Nuestros Servicios</h2>
-            </div>
+  <div class="title-services">
+    <h2 data-i18n="our_services">Nuestros Servicios</h2>
+  </div>
 
-            <div class="cards-grid" data-aos="fade-up" data-aos-duration="1500">
-                <div class="card">
-                <img src="./assets/brand.png" alt="Branding">
-                <h3>Branding</h3>
-                <a href="#">Ver más
-                    <i aria-hidden="true" class="fas fa-arrow-right arrow-icon"></i>
-                </a>
-                </div>
-                <div class="card">
-                <img src="./assets/branding.png" alt="Social Media">
-                <h3>Social Media Estratégico</h3>
-                <a href="#">Ver más
-                    <i aria-hidden="true" class="fas fa-arrow-right arrow-icon"></i>
-                </a>
-                </div>
-                <div class="card">
-                <img src="./assets/trend.png" alt="Activaciones BTL">
-                <h3>Activaciones BTL</h3>
-                <a href="#">Ver más
-                    <i aria-hidden="true" class="fas fa-arrow-right arrow-icon"></i>
-                </a>
-                </div>
-                <div class="card">
-                <img src="./assets/webdesign.png" alt="Diseño Web">
-                <h3>Desarrollo Web</h3>
-                <a href="#">Ver más
-                    <i aria-hidden="true" class="fas fa-arrow-right arrow-icon"></i>
-                </a>
-                </div>
-                <div class="card">
-                <img src="./assets/audiovisual.png" alt="E-commerce">
-                <h3>Producción Audiovisual</h3>
-                <a href="#">Ver más
-                    <i aria-hidden="true" class="fas fa-arrow-right arrow-icon"></i>
-                </a>
-                </div>
-                <div class="card">
-                <img src="./assets/asesoria.png" alt="Producción de Video">
-                <h3>Asesoría y Análisis</h3>
-                <a href="#">Ver más
-                    <i aria-hidden="true" class="fas fa-arrow-right arrow-icon"></i>
-                </a>
-                </div>
-            </div>
-        </section>
+  <div class="cards-grid" data-aos="fade-up" data-aos-duration="1500">
+    <div class="card">
+      <img src="./assets/brand.png" alt="Branding">
+      <h3 data-i18n="branding">Branding</h3>
+      <a href="#">
+        <span data-i18n="see_more">Ver más</span>
+        <i aria-hidden="true" class="fas fa-arrow-right arrow-icon"></i>
+      </a>
+    </div>
+    <div class="card">
+      <img src="./assets/branding.png" alt="Social Media">
+      <h3 data-i18n="social_media">Social Media Estratégico</h3>
+      <a href="#">
+        <span data-i18n="see_more">Ver más</span>
+        <i aria-hidden="true" class="fas fa-arrow-right arrow-icon"></i>
+      </a>
+    </div>
+    <div class="card">
+      <img src="./assets/trend.png" alt="Activaciones BTL">
+      <h3 data-i18n="btl_activations">Activaciones BTL</h3>
+      <a href="#">
+        <span data-i18n="see_more">Ver más</span>
+        <i aria-hidden="true" class="fas fa-arrow-right arrow-icon"></i>
+      </a>
+    </div>
+    <div class="card">
+      <img src="./assets/webdesign.png" alt="Diseño Web">
+      <h3 data-i18n="web_development">Desarrollo Web</h3>
+      <a href="#">
+        <span data-i18n="see_more">Ver más</span>
+        <i aria-hidden="true" class="fas fa-arrow-right arrow-icon"></i>
+      </a>
+    </div>
+    <div class="card">
+      <img src="./assets/audiovisual.png" alt="Producción Audiovisual">
+      <h3 data-i18n="audiovisual_production">Producción Audiovisual</h3>
+      <a href="#">
+        <span data-i18n="see_more">Ver más</span>
+        <i aria-hidden="true" class="fas fa-arrow-right arrow-icon"></i>
+      </a>
+    </div>
+    <div class="card">
+      <img src="./assets/asesoria.png" alt="Asesoría y Análisis">
+      <h3 data-i18n="advisory">Asesoría y Análisis</h3>
+      <a href="#">
+        <span data-i18n="see_more">Ver más</span>
+        <i aria-hidden="true" class="fas fa-arrow-right arrow-icon"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+
         <!-- PORTAFOLIO -->
         <section class="portafolio" id="portafolio">
             <div class="titulo-porta">
-                <div class="principal-porta">Nuestro portafolio</div>
-                <div class="sec">Desde tu nuevo logo hasta el manual visual y verbal, te equiparemos con las herramientas
-                    necesarias para (re)lanzarte con éxito como una marca alineada desde el primer dia.</div>
+                <div class="principal-porta" data-i18n="portfolio.title">Nuestro portafolio</div>
+                <div class="sec" data-i18n="portfolio.description">
+                    Desde tu nuevo logo hasta el manual visual y verbal, te equiparemos con las herramientas necesarias para (re)lanzarte con éxito como una marca alineada desde el primer día.
+                </div>
                 <div class="btn-asesoria">
-                    <a href="https://api.whatsapp.com/send?phone=51924634315&text=Hola,%20me%20gustaria%20Obtener%20m%C3%A1s%20informaci%C3%B3n" target="_blank"><button class="asesoria">Asesoría Gratuita</button></a>
+                    <a href="https://api.whatsapp.com/send?phone=51924634315&text=Hola,%20me%20gustaria%20Obtener%20m%C3%A1s%20informaci%C3%B3n" target="_blank">
+                        <button class="asesoria" data-i18n="portfolio.button">Asesoría Gratuita</button>
+                    </a>
                 </div>
             </div>
+            
             <div class="sliders" data-aos="fade-up" data-aos-duration="1500">
-                <div class="slider1">
-                    <a href="#">
-                        <img class="img-small" src="./assets/GOUSTEP_Mesa de trabajo 1 copia 3.png">
-                    </a>
-                </div>
-                <div class="slider2">
-                    <a href="#">
-                        <img class="img-small" src="./assets/mockup tarjetas.png">
-                    </a>
-                </div>
-                <div class="slider3">
-                    <a href="#">
-                        <img class="img-big" src="./assets/inmobiliar.png">
-                    </a>
-                </div>
-                <div class="slider4">
-                    <a href="#">
-                        <img class="img-big" src="./assets/chicasechadas.JPG">
-                    </a>
-                </div>
-                <div class="slider5">
-                    <a href="#">
-                        <img class="img-small" src="./assets/qoreazul.png">
-                    </a>
-                </div>
-                <div class="slider6">
-                    <a href="#">
-                        <img class="img-small" src="./assets/losgordos.JPG">
-                    </a>
-                </div>
-                <div class="slider7">
-                    <a href="#">
-                        <img class="img-small" src="./assets/qrystal.jpg">
-                    </a>
-                </div>
-                <div class="slider8">
-                    <a href="#">
-                        <img class="img-small" src="./assets/carrusel-makiwarmi_02.png">
-                    </a>
-                </div>
-                <div class="slider9">
-                    <a href="#">
-                        <img class="img-big" src="./assets/lacireee.jpg">
-                    </a>
-                </div>
+                <!-- Aquí no se necesita traducción porque son solo imágenes -->
+                <div class="slider1"><a href="#"><img class="img-small" src="./assets/GOUSTEP_Mesa de trabajo 1 copia 3.png"></a></div>
+                <div class="slider2"><a href="#"><img class="img-small" src="./assets/mockup tarjetas.png"></a></div>
+                <div class="slider3"><a href="#"><img class="img-big" src="./assets/inmobiliar.png"></a></div>
+                <div class="slider4"><a href="#"><img class="img-big" src="./assets/chicasechadas.JPG"></a></div>
+                <div class="slider5"><a href="#"><img class="img-small" src="./assets/qoreazul.png"></a></div>
+                <div class="slider6"><a href="#"><img class="img-small" src="./assets/losgordos.JPG"></a></div>
+                <div class="slider7"><a href="#"><img class="img-small" src="./assets/qrystal.jpg"></a></div>
+                <div class="slider8"><a href="#"><img class="img-small" src="./assets/carrusel-makiwarmi_02.png"></a></div>
+                <div class="slider9"><a href="#"><img class="img-big" src="./assets/lacireee.jpg"></a></div>
             </div>
         </section>
+
         
 
         <!-- PAQUETES -->
          <section class="paquetes" id="paquetes" >
             <div class="title-paquetes" data-aos="fade-up" data-aos-duration="1500">
-                <h2>Nuestros Paquetes</h2>
-                <p>Nuestros paquetes son la base perfecta para cada marca, sin importar su tamaño.</p>
+                <h2 data-i18n="packages.title">Nuestros Paquetes</h2>
+                <p data-i18n="packages.description">
+                Nuestros paquetes son la base perfecta para cada marca, sin importar su tamaño.
+                </p>
             </div>
             
-            <div class="tabs-wrapper" data-aos="fade-up" data-aos-duration="1500">
+             <div class="tabs-wrapper" data-aos="fade-up" data-aos-duration="1500">
                 <div class="tabs">
-                    <div class="tab active">BRANDING</div>
-                    <div class="tab">REDES SOCIALES + ADS</div>
-                    <div class="tab">DESARROLLO WEB</div>
+                <div class="tab active" data-i18n="packages.tab.branding">BRANDING</div>
+                <div class="tab" data-i18n="packages.tab.social">REDES SOCIALES + ADS</div>
+                <div class="tab" data-i18n="packages.tab.web">DESARROLLO WEB</div>
                 </div>
             </div>
             
 
             <div class="tab-content active">
-                
-                
-
                 <div class="paquete-box">
+                <h2>
+                    <span class="number-title">01.</span>
+                    <span data-i18n="packages.branding.basic.title">Branding Esencial</span>
+                </h2>
+                <p class="tiempo" data-i18n="packages.branding.basic.time">2 - 3 SEMANAS</p>
+                <ul>
+                    <li ><i class="far fa-check-circle"></i> <span data-i18n="packages.branding.basic.items.logo">Diseño de logotipo (versión principal + versiones secundarias)</span></li>
+                    <li ><i class="far fa-check-circle"></i> <span data-i18n="packages.branding.basic.items.palette">Paleta de colores y tipografías</span> </li>
+                    <li ><i class="far fa-check-circle"></i> <span data-i18n="packages.branding.basic.items.manual">Manual de marca (uso del logo, colores, estilo visual)</span> </li>
+                    <li ><i class="far fa-check-circle"></i> <span data-i18n="packages.branding.basic.items.mockups">Mockups para visualizar cómo lucirá tu marca en distintos soportes (tarjetas, papelería, redes)</span> </li>
+                    <li ><i class="far fa-check-circle"></i> <span data-i18n="packages.branding.basic.items.social">Diseños para redes sociales (perfil, portada y posts de presentación)</span> </li>
+                    <li ><i class="far fa-check-circle"></i> <span data-i18n="packages.branding.basic.items.card">Tarjeta de presentación digital</span> </li>
+                    <li ><i class="far fa-check-circle"></i> <span data-i18n="packages.branding.basic.items.files">Archivos editables listos para impresión y uso digital</span> </li>
+                </ul>
 
-                    <h2>
-                        <span class="number-title">01.</span> 
-                        <span>Branding Esencial</span>
-                    </h2>
-                    <p class="tiempo">2 - 3 SEMANAS</p>
-                    <ul>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Diseño de logotipo (versión principal + versiones secundarias)</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Paleta de colores y tipografías</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Manual de marca (uso del logo, colores, estilo visual)</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Mockups para visualizar cómo lucirá tu marca en distintos soportes (tarjetas, papelería, redes)</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Diseños para redes sociales (perfil, portada y posts de presentación)</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Tarjeta de presentación digital</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Archivos editables listos para impresión y uso digital</li>
-                    </ul>
-                    
-                    <a href="#" class="ver-precio">DESDE S/700 + IGV
-                        <i aria-hidden="true" class="fas fa-arrow-right arrow-icon"></i>
-                    </a>
+                <a href="#" class="ver-precio" data-i18n="packages.branding.basic.price">
+                    DESDE S/700 + IGV <i class="fas fa-arrow-right arrow-icon"></i>
+                </a>
                 </div>
             </div>
 
@@ -266,143 +254,143 @@
                 <div class="paquete-box">
                     <h2>
                         <span class="number-title">01.</span> 
-                        <span>Paquete Básico</span>
+                        <span data-i18n="paquetes.redes.basico.titulo">Paquete Básico</span>
                     </h2>
                     <ul>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> 5 Reels Mensuales</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> 5 Posts Mensuales </li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> 8 Historias (8 adaptaciones del contenido)</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> 1 sesión de grabación</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Fotografías mensuales</li>                        
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> 4 anuncios (ADS)</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Asesoría Nivel 1</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Contacto de influencers</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Reunión estratégica incluida</li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.basico.item1">5 Reels Mensuales</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.basico.item2">5 Posts Mensuales</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.basico.item3">8 Historias (8 adaptaciones del contenido)</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.basico.item4">1 sesión de grabación</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.basico.item5">Fotografías mensuales</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.basico.item6">4 anuncios (ADS)</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.basico.item7">Asesoría Nivel 1</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.basico.item8">Contacto de influencers</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.basico.item9">Reunión estratégica incluida</span></li>
                     </ul>
-                    <p class="tiempo-red">X MES</p>
-                    <a href="#" class="ver-precio">S/1400
-                        <i aria-hidden="true" class="fas fa-arrow-right arrow-icon"></i>
+                    <p class="tiempo-red" data-i18n="paquetes.redes.tiempo">X MES</p>
+                    <a href="#" class="ver-precio">
+                        <span data-i18n="paquetes.redes.basico.precio">S/1400</span>
+                        <i class="fas fa-arrow-right arrow-icon"></i>
                     </a>
                 </div>
+
                 <div class="paquete-box">
                     <h2>
                         <span class="number-title">02.</span> 
-                        <span>Paquete Premium</span>
+                        <span data-i18n="paquetes.redes.premium.titulo">Paquete Premium</span>
                     </h2>
                     <ul>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> 6 Reels Mensuales</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> 6 Posts Mensuales</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Flyers impresos (4 tipos): papelería, letreros, etc.</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> 12 Historias (12 adaptaciones del contenido)</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> 2 sesiones de grabación</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Fotografías mensuales</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> 6 anuncios(ADS)</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> 2 campañas mensuales</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Informe de resultados (META)</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Asesoría Nivel 2</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Contacto con influencers</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Reunión estratégica incluida</li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.premium.item1">6 Reels Mensuales</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.premium.item2">6 Posts Mensuales</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.premium.item3">Flyers impresos (4 tipos): papelería, letreros, etc.</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.premium.item4">12 Historias (12 adaptaciones del contenido)</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.premium.item5">2 sesiones de grabación</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.premium.item6">Fotografías mensuales</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.premium.item7">6 anuncios (ADS)</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.premium.item8">2 campañas mensuales</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.premium.item9">Informe de resultados (META)</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.premium.item10">Asesoría Nivel 2</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.premium.item11">Contacto con influencers</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.premium.item12">Reunión estratégica incluida</span></li>
                     </ul>
-                    <p class="tiempo-red">X MES</p>
-                    <a href="#" class="ver-precio">S/1800
-                        <i aria-hidden="true" class="fas fa-arrow-right arrow-icon"></i>
+                    <p class="tiempo-red" data-i18n="paquetes.redes.tiempo">X MES</p>
+                    <a href="#" class="ver-precio">
+                        <span data-i18n="paquetes.redes.premium.precio">S/1800</span>
+                        <i class="fas fa-arrow-right arrow-icon"></i>
                     </a>
                 </div>
 
                 <div class="paquete-box">
                     <h2>
                         <span class="number-title">03.</span> 
-                        <span>Paquete Elite</span>
+                        <span data-i18n="paquetes.redes.elite.titulo">Paquete Elite</span>
                     </h2>
                     <ul>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> 8 Reels Mensuales</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> 10 Posts Mensuales</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Flyers impresos (6 tipos): papelería, merchandising, letreros, etc.</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> 18 Historias (18 adaptaciones del contenido)</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> 2 sesiones de grabación</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Fotografías mensuales</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> 10 anuncios(ADS)</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> 3 campañas mensuales</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Informe de resultados (META + TikTok)</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Asesoría Nivel 3</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Contacto con influencers</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Reunión estratégica incluida</li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.elite.item1">8 Reels Mensuales</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.elite.item2">10 Posts Mensuales</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.elite.item3">Flyers impresos (6 tipos): papelería, merchandising, letreros, etc.</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.elite.item4">18 Historias (18 adaptaciones del contenido)</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.elite.item5">2 sesiones de grabación</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.elite.item6">Fotografías mensuales</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.elite.item7">10 anuncios (ADS)</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.elite.item8">3 campañas mensuales</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.elite.item9">Informe de resultados (META + TikTok)</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.elite.item10">Asesoría Nivel 3</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.elite.item11">Contacto con influencers</span></li>
+                        <li><i class="far fa-check-circle"></i> <span data-i18n="paquetes.redes.elite.item12">Reunión estratégica incluida</span></li>
                     </ul>
-                    <p class="tiempo-red">X MES</p>
-                    <a href="#" class="ver-precio">S/2400
-                        <i aria-hidden="true" class="fas fa-arrow-right arrow-icon"></i>
+                    <p class="tiempo-red" data-i18n="paquetes.redes.tiempo">X MES</p>
+                    <a href="#" class="ver-precio">
+                        <span data-i18n="paquetes.redes.elite.precio">S/2400</span>
+                        <i class="fas fa-arrow-right arrow-icon"></i>
                     </a>
                 </div>
-
-                
             </div>
+
 
             <div class="tab-content">
-                <div class="paquete-box">
-                    <h2>
-                        <span class="number-title">01.</span> 
-                        <span>Elaboración de Landing Page</span>
-                    </h2>
-                    <ul>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Diseño único que refleje el estilo de tu marca</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Web rápida y compatible con celular, PC y tablet</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> SEO para que Google te encuentre</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Enlaces directos a WhatsApp y redes sociales</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Galería de fotos y vídeos para tu marca</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Formulario para reservas y consultas</li>
-                    </ul>
-                    <a href="#" class="ver-precio">DESDE S/800 + IGV
-                        <i aria-hidden="true" class="fas fa-arrow-right arrow-icon"></i>
-                    </a>
-                </div>
+    <div class="paquete-box">
+        <h2>
+            <span class="number-title">01.</span> 
+            <span data-i18n="paquete.landing.title">Elaboración de Landing Page</span>
+        </h2>
+        <ul>
+            <li ><i class="far fa-check-circle"></i> <span data-i18n="paquete.landing.1">Diseño único que refleje el estilo de tu marca</span> </li>
+            <li ><i class="far fa-check-circle"></i> <span data-i18n="paquete.landing.2">Web rápida y compatible con celular, PC y tablet</span></li>
+            <li ><i class="far fa-check-circle"></i> <span data-i18n="paquete.landing.3">SEO para que Google te encuentre</span></li>
+            <li ><i class="far fa-check-circle"></i> <span data-i18n="paquete.landing.4">Enlaces directos a WhatsApp y redes sociales</span></li>
+            <li ><i class="far fa-check-circle"></i> <span data-i18n="paquete.landing.5">Galería de fotos y vídeos para tu marca</span></li>
+            <li ><i class="far fa-check-circle"></i> <span data-i18n="paquete.landing.6">Formulario para reservas y consultas</span></li>
+        </ul>
+        <a href="#" class="ver-precio" data-i18n="paquete.landing.precio">DESDE S/800 + IGV <i class="fas fa-arrow-right arrow-icon"></i></a>
+    </div>
 
-                <div class="paquete-box">
-                    <h2>
-                        <span class="number-title">02.</span> 
-                        <span>E-commerce</span>
-                    </h2>
-                    <ul>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Diseño responsive y personalizado</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Integración con pasarelas de pago</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Carrito de compras y checkout optimizado</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Gestión total de productos y pedidos</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Notificaciones automáticas</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> URLs amigables, carga rápida y uso adecuado de etiquetas</li>
-                    </ul>
-                    <a href="#" class="ver-precio">DESDE S/... + IGV
-                        <i aria-hidden="true" class="fas fa-arrow-right arrow-icon"></i>
-                    </a>
-                </div>
+    <div class="paquete-box">
+        <h2>
+            <span class="number-title">02.</span> 
+            <span data-i18n="paquete.ecommerce.title">E-commerce</span>
+        </h2>
+        <ul>
+            <li ><i class="far fa-check-circle"></i> <span data-i18n="paquete.ecommerce.1"> Diseño responsive y personalizado</span></li>
+            <li ><i class="far fa-check-circle"></i> <span data-i18n="paquete.ecommerce.2"> Integración con pasarelas de pago</span></li>
+            <li ><i class="far fa-check-circle"></i> <span data-i18n="paquete.ecommerce.3"> Carrito de compras y checkout optimizado</span></li>
+            <li ><i class="far fa-check-circle"></i> <span data-i18n="paquete.ecommerce.4">Gestión total de productos y pedidos</span></li>
+            <li ><i class="far fa-check-circle"></i> <span data-i18n="paquete.ecommerce.5">Notificaciones automáticas</span></li>
+            <li ><i class="far fa-check-circle"></i> <span data-i18n="paquete.ecommerce.6"> URLs amigables, carga rápida y uso adecuado de etiquetas</span></li>
+        </ul>
+        <a href="#" class="ver-precio" data-i18n="paquete.ecommerce.precio">DESDE S/... + IGV <i class="fas fa-arrow-right arrow-icon"></i></a>
+    </div>
 
-                <div class="paquete-box">
-                    <h2>
-                        <span class="number-title">03.</span> 
-                        <span>Aplicaciones Web / Móvil / Escritorio</span>
-                    </h2>
-                    <ul>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Apps web y móviles a medida</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Login seguro y control de usuarios</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Base de datos escalable y segura</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Panel administrativo personalizado</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Notificaciones push o en tiempo real</li>
-                        <li><i aria-hidden="true" class="far fa-check-circle"></i> Integración con APIs y servicios externos</li>
-                    </ul>
-                    <a href="#" class="ver-precio">DESDE S/... + IGV
-                        <i aria-hidden="true" class="fas fa-arrow-right arrow-icon"></i>
-                    </a>
-                </div>
-            </div>
+    <div class="paquete-box">
+        <h2>
+            <span class="number-title">03.</span> 
+            <span data-i18n="paquete.app.title">Aplicaciones Web / Móvil / Escritorio</span>
+        </h2>
+        <ul>
+            <li ><i class="far fa-check-circle"></i> <span data-i18n="paquete.app.1">Apps web y móviles a medida</span> </li>
+            <li ><i class="far fa-check-circle"></i> <span data-i18n="paquete.app.2">Login seguro y control de usuarios</span> </li>
+            <li ><i class="far fa-check-circle"></i> <span data-i18n="paquete.app.3">Base de datos escalable y segura</span> </li>
+            <li ><i class="far fa-check-circle"></i> <span data-i18n="paquete.app.4">Panel administrativo personalizado</span> </li>
+            <li ><i class="far fa-check-circle"></i> <span data-i18n="paquete.app.5">Notificaciones push o en tiempo real</span> </li>
+            <li ><i class="far fa-check-circle"></i> <span data-i18n="paquete.app.6">Integración con APIs y servicios externos</span> </li>
+        </ul>
+        <a href="#" class="ver-precio" data-i18n="paquete.app.precio">DESDE S/... + IGV <i class="fas fa-arrow-right arrow-icon"></i></a>
+    </div>
+</div>
 
-            <div class="asesoria-paquetes">
-               <a href="https://api.whatsapp.com/send?phone=51924634315&text=Hola,%20me%20gustaria%20Obtener%20m%C3%A1s%20informaci%C3%B3n" target="_blank"><button class="asesoria">Asesoría Gratuita</button></a>
-            </div>
+<div class="asesoria-paquetes">
+    <a href="https://api.whatsapp.com/send?phone=51924634315&text=Hola,%20me%20gustaria%20Obtener%20m%C3%A1s%20informaci%C3%B3n" target="_blank">
+        <button class="asesoria" data-i18n="asesoria.boton">Asesoría Gratuita</button>
+    </a>
+</div>
+
          </section>
 
 
          <!-- RESULTADOSSSSS -->
         <section class="confian">
             <div class="container-confian" data-aos="fade-up" data-aos-duration="1500">
-                <h2 class="title-confian">
+                <h2 class="title-confian" data-i18n="clients.trust">
                     Ellos confían en nosotros
                 </h2>
             </div>
@@ -724,103 +712,112 @@
         </section>
 
         <!-- PREGUNTA -->
-         <section class="pregunta" id="negocio">
-            <div class="contenedor-pregunta" data-aos="fade-up" data-aos-duration="1500">
-                <div class="pregunta-texto">
-                <h2>¿Tu negocio se siente así?</h2>
-                <p>Si te identificas con esto, es momento de repensar tu estrategia de marca. En <strong>PosteaLab</strong>, te ayudamos a construir una identidad clara, coherente y poderosa.</p>
-                <a href="https://api.whatsapp.com/send?phone=51924634315&text=Hola,%20me%20gustaria%20Obtener%20m%C3%A1s%20informaci%C3%B3n" target="_blank" class="asesoria">Asesoría gratuita</a>
-                </div>
-                <div class="pregunta-lista">
-                    <ul>
-                        <li><i class="fas fa-dot-circle"></i>Tu competencia tiene una propuesta clara, mientras tú sientes que estás en todas partes, sin un enfoque definido.</li>
-                        <li><i class="fas fa-dot-circle"></i>Tu mensaje es inconsistente: cada persona del equipo describe el negocio de forma distinta.</li>
-                        <li><i class="fas fa-dot-circle"></i>Te enfocas en vender productos, pero no en resolver los problemas reales de tus clientes.</li>
-                        <li><i class="fas fa-dot-circle"></i>Estás por lanzar tu marca o producto y necesitas conectar con tu audiencia desde el primer día.</li>
-                        <li><i class="fas fa-dot-circle"></i>Sientes que tu negocio necesita una dirección clara y un propósito bien definido.</li>
-                        <li><i class="fas fa-dot-circle"></i>No estás satisfecho con la percepción actual de tu marca y sabes que puede llegar mucho más lejos.</li>
-                    </ul>
-                </div>
+        <section class="pregunta" id="negocio">
+        <div class="contenedor-pregunta" data-aos="fade-up" data-aos-duration="1500">
+            <div class="pregunta-texto">
+            <h2 data-i18n="question.title">¿Tu negocio se siente así?</h2>
+            <p data-i18n="question.description">
+                Si te identificas con esto, es momento de repensar tu estrategia de marca. En <strong>PosteaLab</strong>, te ayudamos a construir una identidad clara, coherente y poderosa.
+            </p>
+            <a
+                href="https://api.whatsapp.com/send?phone=51924634315&text=Hola,%20me%20gustaria%20Obtener%20m%C3%A1s%20informaci%C3%B3n"
+                target="_blank"
+                class="asesoria"
+                data-i18n="question.cta"
+            >
+                Asesoría gratuita
+            </a>
             </div>
+            <div class="pregunta-lista">
+            <ul>
+                <li ><i class="fas fa-dot-circle"></i> <span data-i18n="question.list.item1">Tu competencia tiene una propuesta clara, mientras tú sientes que estás en todas partes, sin un enfoque definido.</span></li>
+                <li ><i class="fas fa-dot-circle"></i> <span data-i18n="question.list.item2">Tu mensaje es inconsistente: cada persona del equipo describe el negocio de forma distinta.</span></li>
+                <li ><i class="fas fa-dot-circle"></i> <span data-i18n="question.list.item3">Te enfocas en vender productos, pero no en resolver los problemas reales de tus clientes.</span></li>
+                <li ><i class="fas fa-dot-circle"></i> <span data-i18n="question.list.item4">Estás por lanzar tu marca o producto y necesitas conectar con tu audiencia desde el primer día.</span></li>
+                <li ><i class="fas fa-dot-circle"></i> <span data-i18n="question.list.item5">Sientes que tu negocio necesita una dirección clara y un propósito bien definido.</span></li>
+                <li ><i class="fas fa-dot-circle"></i> <span data-i18n="question.list.item6">No estás satisfecho con la percepción actual de tu marca y sabes que puede llegar mucho más lejos.</span></li>
+            </ul>
+            </div>
+        </div>
         </section>
+
 
 
         <!-- PROCESOO -->
         <section class="proceso" id="proceso">
-        <div class="proceso-container"  data-aos="fade-up" data-aos-duration="1500">
-            <h2 class="title-proceso">Nuestro Proceso</h2>
-                <p class="subtitulo-proceso">Dinámico y enfocado, no es solo nuestro equipo, es nuestro proceso.</p>
-                
-                <div class="contenedor-proceso">
-                    <!-- Izquierda -->
-                    <div class="column columna-izquierda">
-                    <div class="paso">
-                        <span class="numero">1</span>
-                        <details>
-                            <summary>ON BOARDING 
-                                <i class="fas fa-chevron-down icon-toggle"></i>
-                            </summary>
-                            <div class="contenido-details">
-                                <p>VISIÓN</p>
-                                    
-                                <p>Nos reunimos contigo junto a tu equipo para analizar las necesidades que tienes en cuanto al crecimiento de tu negocio, para poder asesorarte y brindarte nuestro análisis y recomendaciones.</p>                  
-                            </div>
-                        </details>
-                    </div>
-                    <div class="paso">
-                        <span class="numero">2</span>
-                        <details>
-                        <summary>PROGRAMACIÓN
-                            <i class="fas fa-chevron-down icon-toggle"></i>
-                        </summary>
-                        <p>IDEALIZACIÓN</p>
-                        <p>Idealizamos el feed perfecto para ti, y nos reunimos para realizar una lluvia de ideas junto a tu equipo que potenciarán tu marca dentro de los contenidos que realizaremos para tu negocio.</p>
-                        </details>
-                    </div>
-                    </div>
+  <div class="proceso-container" data-aos="fade-up" data-aos-duration="1500">
+    <h2 class="title-proceso" data-i18n="proceso.title">Nuestro Proceso</h2>
+    <p class="subtitulo-proceso" data-i18n="proceso.subtitle">Dinámico y enfocado, no es solo nuestro equipo, es nuestro proceso.</p>
 
-                    <!-- Centro: VIDEO -->
-                    <div class="gif-centro">
-                        <div class="marca-superior">
-                            <img src="./assets/LOGO BLANCO.PNG" alt="logo" class="logo">
-                            <div class="texto-superior">
-                            <span>PosteaLab</span><br>
-                            <small>Branding</small>
-                            </div>
-                        </div>
-                        <video preload="auto" class="gif-img" loop playsinline muted id="miVideo">
-                          <source src="./assets/posteavid.webm" type="video/webm">
-                          <source src="./assets/posteavid.mp4" type="video/mp4">
-                        </video>
-                    </div>
-
-                    <!-- Derecha -->
-                    <div class="column columna-derecha">
-                    <div class="paso">
-                        <span class="numero">3</span>
-                        <details>
-                        <summary>PRE-PRO-POST
-                            <i class="fas fa-chevron-down icon-toggle"></i> 
-                        </summary>
-                        <p>PRODUCCIÓN</p>
-                        <p>Uno de nuestros líderes tomará tu proyecto y junto a todo el equipo de Postea Lab producirán todo el contenido durante el mes para que tengas un feed único, lleno de contenido de valor.</p>
-                        </details>
-                    </div>
-                    <div class="paso">
-                        <span class="numero">4</span>
-                        <details>
-                        <summary>DIFUSIÓN
-                            <i class="fas fa-chevron-down icon-toggle"></i>
-                        </summary>
-                        <p>PUBLICACIÓN Y MEDIOS</p>
-                        <p>Nuestro equipo de Community Management realizarán las publicaciones en Facebook, Instagram y Tiktok. Asímismo, el equipo de Ads realizarán los anuncios con el presupuesto que designes a cada campaña.</p>
-                        </details>
-                    </div>
-                    </div>
-                </div>
+    <div class="contenedor-proceso">
+      <!-- Izquierda -->
+      <div class="column columna-izquierda">
+        <div class="paso">
+          <span class="numero">1</span>
+          <details>
+            <summary ><span data-i18n="proceso.step1.title">ON BOARDING</span> <i class="fas fa-chevron-down icon-toggle"></i></summary>
+            <div class="contenido-details">
+              <p data-i18n="proceso.step1.phase">VISIÓN</p>
+              <p data-i18n="proceso.step1.description">
+                Nos reunimos contigo junto a tu equipo para analizar las necesidades que tienes en cuanto al crecimiento de tu negocio, para poder asesorarte y brindarte nuestro análisis y recomendaciones.
+              </p>
+            </div>
+          </details>
         </div>
-        
-        </section>
+        <div class="paso">
+          <span class="numero">2</span>
+          <details>
+            <summary ><span data-i18n="proceso.step2.title">PROGRAMACIÓN </span><i class="fas fa-chevron-down icon-toggle"></i></summary>
+            <p data-i18n="proceso.step2.phase">IDEALIZACIÓN</p>
+            <p data-i18n="proceso.step2.description">
+              Idealizamos el feed perfecto para ti, y nos reunimos para realizar una lluvia de ideas junto a tu equipo que potenciarán tu marca dentro de los contenidos que realizaremos para tu negocio.
+            </p>
+          </details>
+        </div>
+      </div>
+
+      <!-- Centro: VIDEO -->
+      <div class="gif-centro">
+        <div class="marca-superior">
+          <img src="./assets/LOGO BLANCO.PNG" alt="logo" class="logo">
+          <div class="texto-superior">
+            <span>PosteaLab</span><br>
+            <small>Branding</small>
+          </div>
+        </div>
+        <video preload="auto" class="gif-img" loop playsinline muted id="miVideo">
+          <source src="./assets/posteavid.webm" type="video/webm">
+          <source src="./assets/posteavid.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <!-- Derecha -->
+      <div class="column columna-derecha">
+        <div class="paso">
+          <span class="numero">3</span>
+          <details>
+            <summary ><span data-i18n="proceso.step3.title">PRE-PRO-POST </span><i class="fas fa-chevron-down icon-toggle"></i></summary>
+            <p data-i18n="proceso.step3.phase">PRODUCCIÓN</p>
+            <p data-i18n="proceso.step3.description">
+              Uno de nuestros líderes tomará tu proyecto y junto a todo el equipo de Postea Lab producirán todo el contenido durante el mes para que tengas un feed único, lleno de contenido de valor.
+            </p>
+          </details>
+        </div>
+        <div class="paso">
+          <span class="numero">4</span>
+          <details>
+            <summary > <span data-i18n="proceso.step4.title">DIFUSIÓN </span><i class="fas fa-chevron-down icon-toggle"></i></summary>
+            <p data-i18n="proceso.step4.phase">PUBLICACIÓN Y MEDIOS</p>
+            <p data-i18n="proceso.step4.description">
+              Nuestro equipo de Community Management realizarán las publicaciones en Facebook, Instagram y Tiktok. Asímismo, el equipo de Ads realizarán los anuncios con el presupuesto que designes a cada campaña.
+            </p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
         <!-- REDES SOCIALES -->
@@ -828,11 +825,11 @@
             <div class="encabezado-redes" data-aos="fade-up" data-aos-duration="1500">
                 <div class="logo-redes">
                     <img src="./assets/LOGO BLANCO.PNG" alt="">
-                    <h2>#redes sociales</h2>
+                    <h2 data-i18n="redes">#redes sociales</h2>
                     
                 </div>
                 <div class="btn-asesoria">
-                  <a href="#servicios"><button class="asesoria">Ver Servicios</button></a>  
+                  <a href="#servicios"><button class="asesoria" data-i18n="see-services">Ver Servicios</button></a>  
                 </div>
             </div>
 
@@ -861,46 +858,46 @@
         <section class="footer" id="footer">
             <div class="footer-container">
                 <div class="footer-col col-contacto">
-                    <h3>Info de contacto</h3>
-                    <p>Celular: +51 924 634 315</p>
-                    <p>E-mail: <a href="mailto:ventas@postealab.com">ventas@postealab.com</a></p>
-                    <p>Trujillo, Perú</p>
+                <h3 data-i18n="footer.contact.title">Info de contacto</h3>
+                <p data-i18n="footer.contact.phone">Celular: +51 924 634 315</p>
+                <p data-i18n="footer.contact.email">
+                    E-mail: <a href="mailto:ventas@postealab.com">ventas@postealab.com</a>
+                </p>
+                <p data-i18n="footer.contact.location">Trujillo, Perú</p>
                 </div>
-        
+
                 <div class="footer-col col-navegacion">
-                    <h3>Explora</h3>
-                    <ul>
-                        <li><i aria-hidden="true" class="fas fa-angle-right"></i><a href="">Nosotros</a></li>
-                        <li><i aria-hidden="true" class="fas fa-angle-right"></i><a href="">Servicios</a></li>
-                        <li><i aria-hidden="true" class="fas fa-angle-right"></i><a href="">Portafolio</a></li>
-                        <li><i aria-hidden="true" class="fas fa-angle-right"></i><a href="">Contacto</a></li>
-                    </ul>
-                    
+                <h3 data-i18n="footer.explore.title">Explora</h3>
+                <ul>
+                    <li><i class="fas fa-angle-right"></i><a href="#" data-i18n="footer.explore.about">Nosotros</a></li>
+                    <li><i class="fas fa-angle-right"></i><a href="#" data-i18n="footer.explore.services">Servicios</a></li>
+                    <li><i class="fas fa-angle-right"></i><a href="#" data-i18n="footer.explore.portfolio">Portafolio</a></li>
+                    <li><i class="fas fa-angle-right"></i><a href="#" data-i18n="footer.explore.contact">Contacto</a></li>
+                </ul>
                 </div>
-        
+
                 <div class="footer-col col-blog">
-                    <h3>Nuestras Redes</h3>
-                    <div class="footer-social">
-                        <a href="https://www.instagram.com/postealab.pe?utm_source=ig_web_button_share_sheet&igsh=c2czc3dqanhxZ3J1"  target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.facebook.com/share/1AcyhbPPww/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.tiktok.com/@postealab.pe?lang=es-419" target="_blank"><i class="fab fa-tiktok"></i></a>
-                        <a href="https://www.threads.com/@postealab.pe" target="_blank"><i class="fab fa-threads"></i></a>
-                    </div>
-                    <p>Recibe insights de branding</p>
-                    <form class="footer-form" id="formulario" method="POST" action="php/form-handler.php">
-                        <input name="email" type="email" placeholder="E-mail" required/>
-                        <button type="submit">Suscríbete</button>
-                    </form>
+                <h3 data-i18n="footer.social.title">Nuestras Redes</h3>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/postealab.pe" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/share/1AcyhbPPww" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.tiktok.com/@postealab.pe?lang=es-419" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.threads.com/@postealab.pe" target="_blank"><i class="fab fa-threads"></i></a>
+                </div>
+                <p data-i18n="footer.social.cta">Recibe insights de branding</p>
+                <form class="footer-form" id="formulario" method="POST" action="php/form-handler.php">
+                    <input name="email" type="email" placeholder="E-mail" required />
+                    <button type="submit" data-i18n="footer.social.subscribe">Suscríbete</button>
+                </form>
                 </div>
             </div>
 
             <div class="footer-bottom">
                 <hr />
-                <p>©2025 Postea Lab - Todos los derechos reservados</p>
+                <p data-i18n="footer.bottom">©2025 Postea Lab - Todos los derechos reservados</p>
             </div>
-        
-        
         </section>
+
 
     </body>
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -910,6 +907,7 @@
    <script src="./js/video-reproduction.js"></script>
    <script src="./js/formulario.js"></script>
    <script src="./js/redireccion.js"></script>
+   <script src="./js/lang.js"></script>
    <script>
     AOS.init();
    </script>
